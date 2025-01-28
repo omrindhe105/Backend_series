@@ -19,6 +19,12 @@ const fs = require('fs');
 //     else console.log("file name change sucessfully")
 // })
 
+//copy file
+ fs.copyFile("msg.text","copiedfile.text",function(err){
+    if(err) console.log(err);
+    else console.log("file copied sucessfully")
+ })
+
 
 
 
