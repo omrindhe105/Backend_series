@@ -32,7 +32,7 @@ app.get("/profile", function (req, res) {
     return next(error("something happens"))
 })
 
-f
+ 
 //error handler
 app.use(function errorHandler (err, req, res, next) {
     if (res.headersSent) {
